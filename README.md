@@ -106,15 +106,15 @@ A arquitetura web de três camadas é um padrão de design de software que organ
 
 Essa separação facilita a manutenção e escalabilidade da aplicação, permitindo que cada camada possa ser modificada ou melhorada de forma independente.
 
-![Arquitetura das Aplicações Web](./docs/arquitetura-web.png)
+![Arquitetura das Aplicações Web](./docs/arquitetura-web2.png)
 
-Fonte: [https://blog.grancursosonline.com.br/arquitetura-em-tres-camadas-para-aplicacoes-web/](https://blog.grancursosonline.com.br/arquitetura-em-tres-camadas-para-aplicacoes-web/)
+Fonte: Baseada em [https://blog.grancursosonline.com.br/arquitetura-em-tres-camadas-para-aplicacoes-web/](https://blog.grancursosonline.com.br/arquitetura-em-tres-camadas-para-aplicacoes-web/)
 
 O presente projeto foca no desenvolvimento da Camada de Apresentação. Essa camada pode ser organizada através da separação em HTML (ou estrutura), CSS (ou apresentação) e JavaScript (ou comportamento).
 
-![Camada de Apresentação](./docs/Camada-Apresentação.png)
+![Camada de Apresentação](./docs/Camada-Apresentação2.png)
 
-Fonte: [https://twitter.com/cewebbr/status/1290302291388424193/photo/1](https://twitter.com/cewebbr/status/1290302291388424193/photo/1)
+Fonte: Baseada em [https://twitter.com/cewebbr/status/1290302291388424193/photo/1](https://twitter.com/cewebbr/status/1290302291388424193/photo/1)
 
 ### Fundamentos do Framework CSS - Bootstrap
 
