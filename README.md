@@ -223,11 +223,11 @@ O primeiro passo que faremos é criar a seguinte estrutura de pastas e arquivos.
 ```text
 aula-bootstrap/
     code/
-    index.html
-    assets/
-        css/
-        js/
-        img/
+        index.html
+        assets/
+            css/
+            js/
+            img/
 ```
 
 ### Criar a Estrutura da Página
@@ -275,9 +275,9 @@ Dentro do arquivo `index.html`, que foi criado na etapa anterior, copie o códig
 **Explicação sobre o código HTML**
 
 * Ordem correta de inclusão:
-    * Bootstrap CSS
+    * CSS do Bootstrap
     * CSS personalizado
-    * Bootstrap JS
+    * Javascript do Bootstrap
     * JavaScript personalizado
 
 ### Executar a Aplicação Web
