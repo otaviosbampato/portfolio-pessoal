@@ -10,3 +10,36 @@
 section {
     scroll-margin-top: 90px;
 }
+/* ====== ESTILOS MODERNOS (Bootstrap e Bulma) ====== */
+/* Suaviza as transições de temas (Dark/Light mode) */
+body, .box, .card, nav, section, footer {
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Transições em botões ao focar e remover a sombra dura */
+.btn, .button, .tag, a, i {
+    transition: all 0.25s ease;
+}
+.btn:hover, .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Cards modernos com borda muito suave e hover para levantar levemente */
+.card, .box {
+    border-radius: 16px !important;
+    border: 1px solid rgba(120, 130, 140, 0.15) !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.04) !important;
+}
+.card:hover, .box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.08) !important;
+}
+
+/* Deixa imagens de perfil mais incríveis */
+.profile-img {
+    box-shadow: 0 12px 28px rgba(0, 200, 100, 0.15);
+    border: 3px solid var(--bs-success, #48c774) !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}

@@ -4,8 +4,9 @@ var btn = document.getElementById("themeToggle");
 
 // Função para aplicar o tema
 function applyTheme(theme) {
-    // Define o tema no HTML
+    // Define o tema no HTML (data-bs-theme para Bootstrap, data-theme para Bulma)
     root.setAttribute("data-bs-theme", theme);
+    root.setAttribute("data-theme", theme);
     // Salva no localStorage
     localStorage.setItem("theme", theme);
     // Se o botão existir, atualiza o ícone

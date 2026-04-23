@@ -16,10 +16,10 @@
     </head>
     <body class="bg-body">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg border-bottom bg-body sticky-top">
+        <nav class="navbar navbar-expand-lg border-bottom bg-body-tertiary sticky-top">
             <div class="container">
-                <a class="navbar-brand fw-semibold" href="#top">
-                    <i class="fa-solid fa-code me-2"></i>Meu Portfólio
+                <a class="navbar-brand fw-bold" href="#top">
+                    <i class="fa-solid fa-terminal me-2 text-success"></i>otáviodev
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
                     <span class="navbar-toggler-icon"></span>
@@ -31,6 +31,7 @@
                         <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#interesses">Interesses</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold text-success" href="bulma.html">Versão Bulma</a></li>
                     </ul>
                     <div class="ms-lg-3 d-flex align-items-center gap-2 py-2 py-lg-0">
                         <span class="small text-secondary d-none d-lg-inline">Tema</span>
@@ -45,32 +46,32 @@
         <!-- Header / Informações Básicas -->
         <header id="top" class="py-5">
             <div class="container">
-                <div class="row align-items-center g-4">
-                    <div class="col-12 col-lg-4 text-center">
-                        <img class="profile-img shadow-sm" src="assets/img/foto.svg" alt="Foto de perfil">
-                        <div class="mt-3">
-                            <span class="badge text-bg-primary me-1">Sistemas de Informação</span>
-                            <span class="badge text-bg-secondary">UFLA</span>
+                <div class="row align-items-center g-5 py-lg-4">
+                    <div class="col-12 col-lg-4 text-center order-lg-2">
+                        <img class="profile-img p-2 bg-body-tertiary" src="assets/img/foto.png" alt="Foto de perfil">
+                        <div class="mt-4">
+                            <span class="badge rounded-pill text-bg-dark px-3 py-2 me-1">Ciência da Computação</span>
+                            <span class="badge rounded-pill text-bg-success px-3 py-2">UFLA</span>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-8">
-                        <h1 class="display-6 fw-semibold mb-3">
-                            Olá! Eu sou <span class="text-primary">Nome do Estudante</span>
+                    <div class="col-12 col-lg-8 order-lg-1">
+                        <h1 class="display-5 fw-bold mb-3">
+                            Olá! Eu sou o <span class="text-success">Otávio</span>
                         </h1>
                         <p class="lead text-secondary mb-4">
-                            Estudante do curso de Sistemas de Informação, interessado em desenvolvimento web e em aprender mais sobre tecnologias e computação.
+                            Estudante de Ciência da Computação na UFLA, apaixonado por engenharia de software, desenvolvimento web e sempre em busca de novos desafios tecnológicos.
                         </p>
                         <div class="d-flex flex-wrap gap-2">
-                            <a class="btn btn-primary" href="#projetos">
+                            <a class="btn btn-dark rounded-pill px-4" href="#projetos">
                                 <i class="fa-solid fa-diagram-project me-2"></i>Ver projetos
                             </a>
-                            <a class="btn btn-outline-primary" href="#contato">
+                            <a class="btn btn-outline-secondary rounded-pill px-4" href="#contato">
                                 <i class="fa-solid fa-envelope me-2"></i>Contato
                             </a>
-                            <a class="btn btn-outline-secondary" href="https://github.com/" target="_blank">
+                            <a class="btn btn-outline-secondary rounded-pill px-4" href="https://github.com/otaviosb" target="_blank">
                                 <i class="fa-brands fa-github me-2"></i>GitHub
                             </a>
-                            <a class="btn btn-outline-secondary" href="https://www.linkedin.com/" target="_blank">
+                            <a class="btn btn-outline-secondary rounded-pill px-4" href="https://www.linkedin.com/in/otaviosb" target="_blank">
                                 <i class="fa-brands fa-linkedin me-2"></i>LinkedIn
                             </a>
                         </div>
@@ -79,22 +80,22 @@
                             <div class="col-12 col-md-6">
                                 <div class="p-3 rounded-3 border bg-body-tertiary">
                                     <div class="d-flex align-items-center gap-2 mb-2">
-                                        <i class="fa-solid fa-graduation-cap text-primary"></i>
+                                        <i class="fa-solid fa-graduation-cap text-success"></i>
                                         <strong>Curso</strong>
                                     </div>
                                     <p class="mb-0 text-secondary">
-                                        Bacharelado em Sistemas de Informação - Universidade Federal de Lavras (UFLA).
+                                        Bacharelado em Ciência da Computação - Universidade Federal de Lavras (UFLA).
                                     </p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="p-3 rounded-3 border bg-body-tertiary">
                                     <div class="d-flex align-items-center gap-2 mb-2">
-                                        <i class="fa-solid fa-bullseye text-primary"></i>
+                                        <i class="fa-solid fa-bullseye text-success"></i>
                                         <strong>Objetivo</strong>
                                     </div>
                                     <p class="mb-0 text-secondary">
-                                        Aprimorar habilidades em web (front-end e back-end) e participar de projetos práticos no semestre.
+                                        Aprofundar meus conhecimentos em estrutura de dados, back-end e front-end, me preparando para os desafios do mercado de tecnologia.
                                     </p>
                                 </div>
                             </div>
@@ -109,18 +110,18 @@
             <section id="sobre" class="py-4">
                 <div class="container">
                     <div class="mb-3">
-                        <h2 class="h4 mb-1">Sobre</h2>
-                        <p class="text-secondary mb-0">Uma breve descrição do estudante e trajetória.</p>
+                        <h2 class="h4 mb-1">Sobre Mim</h2>
+                        <p class="text-secondary mb-0">Um pouco da minha trajetória e quem eu sou.</p>
                     </div>
                     <div class="row g-4">
                         <div class="col-12 col-lg-7">
                             <div class="card shadow-sm">
                                 <div class="card-body">
                                     <p class="mb-2">
-                                        Sou estudante de Sistemas de Informação e gosto de construir aplicações web e aprender criando projetos.
+                                        Sou estudante de Ciência da Computação na Universidade Federal de Lavras (UFLA). Gosto muito da área de algoritmos, de resolver problemas complexos e de construir aplicações web completas do zero.
                                     </p>
                                     <p class="mb-0 text-secondary">
-                                        Nesta página, apresento minhas habilidades, interesses e projetos desenvolvidos.
+                                        Neste portfólio, reúno as principais tecnologias que domino, os conhecimentos que estou aprimorando e os principais projetos práticos que desenvolvi.
                                     </p>
                                 </div>
                             </div>
@@ -131,16 +132,16 @@
                                     <h3 class="h6 mb-3">Informações rápidas</h3>
                                     <ul class="list-unstyled mb-0">
                                         <li class="d-flex gap-2 mb-2">
-                                            <i class="fa-solid fa-location-dot text-primary mt-1"></i>
+                                            <i class="fa-solid fa-location-dot text-success mt-1"></i>
                                             <div><strong>Cidade:</strong> Lavras/MG</div>
                                         </li>
                                         <li class="d-flex gap-2 align-items-start mb-2">
-                                            <i class="fa-solid fa-language mt-1 text-primary"></i>
-                                            <div><strong>Idiomas:</strong> Português, Inglês (intermediário)</div>
+                                            <i class="fa-solid fa-language mt-1 text-success"></i>
+                                            <div><strong>Idiomas:</strong> Português, Inglês (Avançado)</div>
                                         </li>
                                         <li class="d-flex gap-2">
-                                            <i class="fa-solid fa-laptop-code text-primary mt-1"></i>
-                                            <div><strong>Área:</strong> Desenvolvimento Web</div>
+                                            <i class="fa-solid fa-laptop-code text-success mt-1"></i>
+                                            <div><strong>Área:</strong> Engenharia de Software / Web</div>
                                         </li>
                                     </ul>
                                 </div>
@@ -162,21 +163,21 @@
                                 <div class="card-body">
                                     <h3 class="h6">Tecnologias</h3>
                                     <div class="d-flex flex-wrap gap-2">
-                                        <span class="badge rounded-pill text-bg-primary">HTML</span>
-                                        <span class="badge rounded-pill text-bg-primary">CSS</span>
-                                        <span class="badge rounded-pill text-bg-primary">JavaScript</span>
-                                        <span class="badge rounded-pill text-bg-secondary">Bootstrap</span>
-                                        <span class="badge rounded-pill text-bg-secondary">Git/GitHub</span>
-                                        <span class="badge rounded-pill text-bg-secondary">Python</span>
-                                        <span class="badge rounded-pill text-bg-secondary">Django</span>
+                                        <span class="badge rounded-pill text-bg-success">C / C++</span>
+                                        <span class="badge rounded-pill text-bg-success">Python</span>
+                                        <span class="badge rounded-pill text-bg-success">JavaScript</span>
+                                        <span class="badge rounded-pill text-bg-dark">React</span>
+                                        <span class="badge rounded-pill text-bg-dark">Node.js</span>
+                                        <span class="badge rounded-pill text-bg-dark">Bootstrap</span>
+                                        <span class="badge rounded-pill text-bg-dark">Git / GitHub</span>
                                     </div>
                                     <hr>
                                     <h3 class="h6">Competências</h3>
                                     <ul class="mb-0">
-                                        <li>Construção de páginas responsivas</li>
-                                        <li>Manipulação do DOM e eventos</li>
-                                        <li>Organização de projetos e versionamento</li>
-                                        <li>Boas práticas de legibilidade de código</li>
+                                        <li>Front-end</li>
+                                        <li>Desenvolvimento de APIs RESTful</li>
+                                        <li>Criação de interfaces responsivas</li>
+                                        <li>C++</li>
                                     </ul>
                                 </div>
                             </div>
@@ -184,13 +185,29 @@
                         <div class="col-12 col-lg-6">
                             <div class="card shadow-sm h-100">
                                 <div class="card-body">
-                                    <h3 class="h6">Nível de familiaridade (exemplo)</h3>
+                                    <h3 class="h6">Linguagens</h3>
                                     <div class="mb-3">
                                         <div class="d-flex justify-content-between">
                                             <span>HTML</span><span class="text-secondary small">Intermediário</span>
                                         </div>
                                         <div class="progress" role="progressbar" aria-label="HTML" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 70%"></div>
+                                            <div class="progress-bar" style="width: 65%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>CSS</span><span class="text-secondary small">Básico-Intermediário</span>
+                                        </div>
+                                        <div class="progress" role="progressbar" aria-label="CSS" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 50%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Python</span><span class="text-secondary small">Intermediário</span>
+                                        </div>
+                                        <div class="progress" role="progressbar" aria-label="CSS" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar" style="width: 65%"></div>
                                         </div>
                                     </div>
                                     <div class="mb-3">
@@ -203,10 +220,10 @@
                                     </div>
                                     <div class="mb-0">
                                         <div class="d-flex justify-content-between">
-                                            <span>JavaScript</span><span class="text-secondary small">Intermediário</span>
+                                            <span>JavaScript</span><span class="text-secondary small">Avançado</span>
                                         </div>
                                         <div class="progress" role="progressbar" aria-label="JavaScript" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar" style="width: 65%"></div>
+                                            <div class="progress-bar" style="width: 85%"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -227,24 +244,24 @@
                             <div class="card shadow-sm h-100">
                                 <div class="card-body d-flex flex-column">
                                     <div class="d-flex align-items-start justify-content-between gap-2">
-                                        <h3 class="h6 mb-1">Jogo da Velha</h3>
+                                        <h3 class="h6 mb-1">aprovaia</h3>
                                         <span class="badge text-bg-secondary">HTML</span>
-                                        <span class="badge text-bg-secondary">CSS</span>
+                                        <span class="badge text-bg-secondary">GROK AI</span>
                                         <span class="badge text-bg-secondary">JavaScript</span>
                                     </div>
                                     <p class="text-secondary small">
-                                        Implementação do jogo com verificação de vitória e reinício.
+                                        Site de estudos para ENEM.
                                     </p>
                                     <ul class="small mb-4">
-                                        <li>Matriz</li>
-                                        <li>Manipulação do DOM</li>
-                                        <li>Animação de personagens</li>
+                                        <li>Javascript</li>
+                                        <li>GROK AI</li>
+                                        <li>Componentes (cards, navbar)</li>
                                     </ul>
                                     <div class="mt-auto d-flex gap-2">
-                                        <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noreferrer">
+                                        <a class="btn btn-sm btn-outline-dark" href="https://github.com/otaviosbampato/aprovaia" target="_blank" rel="noreferrer">
                                             <i class="fa-brands fa-github me-1"></i>Repositório
                                         </a>
-                                        <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
+                                        <a class="btn btn-sm btn-success" href="#" target="_blank" rel="noreferrer">
                                             <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Demo
                                         </a>
                                     </div>
@@ -255,13 +272,13 @@
                             <div class="card shadow-sm h-100">
                                 <div class="card-body d-flex flex-column">
                                     <div class="d-flex align-items-start justify-content-between gap-2">
-                                        <h3 class="h6 mb-1">Página Pessoal</h3>
+                                        <h3 class="h6 mb-1">Short Quotes</h3>
                                         <span class="badge text-bg-secondary">HTML</span>
                                         <span class="badge text-bg-secondary">Bootstrap</span>
-                                        <span class="badge text-bg-secondary">FontAwnsome</span>
+                                        <span class="badge text-bg-secondary">GROK</span>
                                     </div>
                                     <p class="text-secondary small">
-                                        Implementação de página pessoal com seções e navegação.
+                                        Consumo de vídeos curtos
                                     </p>
                                     <ul class="small mb-4">
                                         <li>Classes do Bootstrap</li>
@@ -269,10 +286,10 @@
                                         <li>Componentes (cards, navbar)</li>
                                     </ul>
                                     <div class="mt-auto d-flex gap-2">
-                                        <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noreferrer">
+                                        <a class="btn btn-sm btn-outline-dark" href="https://github.com/FredMaia/shortQuotes" target="_blank" rel="noreferrer">
                                             <i class="fa-brands fa-github me-1"></i>Repositório
                                         </a>
-                                        <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
+                                        <a class="btn btn-sm btn-success" href="#" target="_blank" rel="noreferrer">
                                             <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Demo
                                         </a>
                                     </div>
@@ -283,22 +300,22 @@
                             <div class="card shadow-sm h-100">
                                 <div class="card-body d-flex flex-column">
                                     <div class="d-flex align-items-start justify-content-between gap-2">
-                                        <h3 class="h6 mb-1">Calculadora Web</h3>
+                                        <h3 class="h6 mb-1">coffee-chain</h3>
                                         <span class="badge text-bg-secondary">Front-end</span>
                                     </div>
                                     <p class="text-secondary small">
-                                        Calculadora com operações básicas e interface responsiva.
+                                        Rastreabilidade em safras de café com blockchain.
                                     </p>
                                     <ul class="small mb-4">
                                         <li>HTML + CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>Eventos e DOM</li>
+                                        <li>Python e blockchain</li>
+                                        <li>Javascript e docker</li>
                                     </ul>
                                     <div class="mt-auto d-flex gap-2">
-                                        <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noreferrer">
+                                        <a class="btn btn-sm btn-outline-dark" href="https://github.com/isaccunha/coffee-chain" target="_blank" rel="noreferrer">
                                             <i class="fa-brands fa-github me-1"></i>Repositório
                                         </a>
-                                        <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noreferrer">
+                                        <a class="btn btn-sm btn-success" href="#" target="_blank" rel="noreferrer">
                                             <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Demo
                                         </a>
                                     </div>
@@ -360,45 +377,19 @@
                                 <div class="card-body">
                                     <ul class="list-unstyled mb-0">
                                         <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-solid fa-envelope text-primary"></i>
-                                            <span>email@exemplo.com</span>
+                                            <i class="fa-solid fa-envelope text-success"></i>
+                                            <span>otavio.andrade4@estudante.ufla.br</span>
                                         </li>
                                         <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-brands fa-github text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://github.com/" target="_blank" rel="noreferrer">
-                                                github.com/seu-usuario
+                                            <i class="fa-brands fa-github text-success"></i>
+                                            <a class="link-underline link-underline-opacity-0" href="https://github.com/otaviosbampato" target="_blank" rel="noreferrer">
+                                                github.com/otaviosbampato
                                             </a>
                                         </li>
                                         <li class="d-flex gap-2 align-items-center">
-                                            <i class="fa-brands fa-linkedin text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                                linkedin.com/in/seu-usuario
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="card shadow-sm">
-                                <div class="card-body">
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-brands fa-instagram text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://instagram.com/" target="_blank" rel="noreferrer">
-                                                instagram.com/seu-usuario
-                                            </a>
-                                        </li>
-                                        <li class="d-flex gap-2 align-items-center mb-2">
-                                            <i class="fa-brands fa-facebook text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://facebook.com/" target="_blank" rel="noreferrer">
-                                                facebook.com/seu-usuario
-                                            </a>
-                                        </li>
-                                        <li class="d-flex gap-2 align-items-center">
-                                            <i class="fa-brands fa-youtube text-primary"></i>
-                                            <a class="link-underline link-underline-opacity-0" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-                                                youtube.com/seu-usuario
+                                            <i class="fa-brands fa-linkedin text-success"></i>
+                                            <a class="link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/otavio-sbampato/" target="_blank" rel="noreferrer">
+                                                linkedin.com/in/otavio-sbampato
                                             </a>
                                         </li>
                                     </ul>
@@ -413,8 +404,8 @@
         <!-- Rodapé da Página -->
         <footer class="border-top py-4">
             <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
-                <small class="text-secondary">© <span id="year"></span> Página Pessoal — Nome do Estudante</small>
-                <small class="text-secondary">Feito com HTML + Bootstrap + um pouco de CSS/JS</small>
+                <small class="text-secondary">© <span id="year"></span> Página Pessoal — Otávio</small>
+                <small class="text-secondary">Desenvolvido com HTML, JS e Bootstrap</small>
             </div>
         </footer>
 

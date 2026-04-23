@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Pessoal - Bulma</title>
+
+        <!-- Bulma 1.0.0 (CSS) -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+
+        <!-- Font Awesome (ícones) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <!-- CSS do projeto -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body class="has-navbar-fixed-top">
+        <!-- Navbar -->
+        <nav class="navbar is-fixed-top is-transparent border-bottom" style="border-bottom: 1px solid var(--bulma-border);" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item has-text-weight-bold" href="#top">
+                        <i class="fa-solid fa-terminal mr-2 has-text-success"></i> Meu Portfólio
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarContent">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarContent" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="#sobre">Sobre</a>
+                        <a class="navbar-item" href="#habilidades">Habilidades</a>
+                        <a class="navbar-item" href="#projetos">Projetos</a>
+                        <a class="navbar-item" href="#interesses">Interesses</a>
+                        <a class="navbar-item" href="#contato">Contato</a>
+                        <a class="navbar-item has-text-weight-bold has-text-success" href="index.html">Versão Bootstrap</a>
+                        <div class="navbar-item">
+                            <button id="themeToggle" class="button is-small is-outlined is-dark">
+                                <i class="fa-solid fa-moon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header / Informações Básicas -->
+        <header id="top" class="section">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    
+                    <div class="column is-7">
+                        <h1 class="title is-2 mb-4">
+                            Olá! Eu sou o <span class="has-text-success">Otávio</span>
+                        </h1>
+                        <p class="subtitle is-5 has-text-grey mb-5">
+                            Estudante de Ciência da Computação na UFLA, apaixonado por engenharia de software, desenvolvimento web e sempre em busca de novos desafios tecnológicos.
+                        </p>
+                        <div class="buttons mb-6">
+                            <a class="button is-dark" href="#projetos">
+                                <i class="fa-solid fa-diagram-project mr-2"></i>Ver projetos
+                            </a>
+                            <a class="button" href="#contato">
+                                <i class="fa-solid fa-envelope mr-2"></i>Contato
+                            </a>
+                            <a class="button" href="https://github.com/otaviosb" target="_blank">
+                                <i class="fa-brands fa-github mr-2"></i>GitHub
+                            </a>
+                            <a class="button" href="https://www.linkedin.com/in/otaviosb" target="_blank">
+                                <i class="fa-brands fa-linkedin mr-2"></i>LinkedIn
+                            </a>
+                        </div>
+                        <div class="columns">
+                            <div class="column">
+                                <div class="box">
+                                    <div class="is-flex is-align-items-center mb-2">
+                                        <i class="fa-solid fa-graduation-cap has-text-success mr-2"></i>
+                                        <strong>Curso</strong>
+                                    </div>
+                                    <p class="has-text-grey is-size-6">
+                                        Bacharelado em Ciência da Computação - Universidade Federal de Lavras (UFLA).
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="box">
+                                    <div class="is-flex is-align-items-center mb-2">
+                                        <i class="fa-solid fa-bullseye has-text-success mr-2"></i>
+                                        <strong>Objetivo</strong>
+                                    </div>
+                                    <p class="has-text-grey is-size-6">
+                                        Aprofundar meus conhecimentos em estrutura de dados, back-end e front-end, me preparando para os desafios do mercado de tecnologia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-5 has-text-centered">
+                        <figure class="image is-inline-block">
+                            <!-- A tag img usa estilos do custom CSS global agora -->
+                            <img class="profile-img p-1 has-background-white" src="assets/img/foto.png" alt="Foto de perfil">
+                        </figure>
+                        <div class="tags is-centered mt-4">
+                            <span class="tag is-dark is-medium">Ciência da Computação</span>
+                            <span class="tag is-success is-medium">UFLA</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <main class="pb-6">
+            <!-- Sobre -->
+            <section id="sobre" class="section">
+                <div class="container">
+                    <div class="mb-5">
+                        <h2 class="title is-4 mb-2">Sobre Mim</h2>
+                        <p class="subtitle is-6 has-text-grey">Um pouco da minha trajetória e quem eu sou.</p>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-7">
+                            <div class="box is-shadowless" style="border: 1px solid var(--bulma-border);">
+                                <p class="mb-4">
+                                    Sou estudante de Ciência da Computação na Universidade Federal de Lavras (UFLA). Gosto muito da área de algoritmos, de resolver problemas complexos e de construir aplicações web completas do zero.
+                                </p>
+                                <p class="has-text-grey">
+                                    Neste portfólio, reúno as principais tecnologias que domino, os conhecimentos que estou aprimorando e os principais projetos práticos que desenvolvi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column is-5">
+                            <div class="box is-shadowless" style="border: 1px solid var(--bulma-border);">
+                                <h3 class="title is-6 mb-4">Informações rápidas</h3>
+                                <ul>
+                                    <li class="is-flex is-align-items-center mb-3">
+                                        <i class="fa-solid fa-location-dot has-text-success mr-3"></i>
+                                        <div><strong>Cidade:</strong> Lavras/MG</div>
+                                    </li>
+                                    <li class="is-flex is-align-items-center mb-3">
+                                        <i class="fa-solid fa-language has-text-success mr-3"></i>
+                                        <div><strong>Idiomas:</strong> Português, Inglês (Avançado)</div>
+                                    </li>
+                                    <li class="is-flex is-align-items-center">
+                                        <i class="fa-solid fa-laptop-code has-text-success mr-3"></i>
+                                        <div><strong>Área:</strong> Engenharia de Software / Web</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Habilidades -->
+            <section id="habilidades" class="section">
+                <div class="container">
+                    <div class="mb-5">
+                        <h2 class="title is-4 mb-2">Habilidades</h2>
+                        <p class="subtitle is-6 has-text-grey">Tecnologias e competências.</p>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-6">
+                            <div class="box is-shadowless h-100" style="border: 1px solid var(--bulma-border);">
+                                <h3 class="title is-6 mb-3">Tecnologias</h3>
+                                <div class="tags">
+                                    <span class="tag is-success is-rounded">C / C++</span>
+                                    <span class="tag is-success is-rounded">Python</span>
+                                    <span class="tag is-success is-rounded">JavaScript</span>
+                                    <span class="tag is-dark is-rounded">React</span>
+                                    <span class="tag is-dark is-rounded">Node.js</span>
+                                    <span class="tag is-dark is-rounded">Bulma</span>
+                                    <span class="tag is-dark is-rounded">Git / GitHub</span>
+                                </div>
+                                <hr class="my-4">
+                                <h3 class="title is-6 mb-3">Competências</h3>
+                                <ul>
+                                    <li class="mb-1">• Estruturas de Dados e POO</li>
+                                    <li class="mb-1">• Desenvolvimento de APIs RESTful</li>
+                                    <li class="mb-1">• Criação de interfaces responsivas</li>
+                                    <li>• Linux e Terminal</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column is-6">
+                            <div class="box is-shadowless h-100" style="border: 1px solid var(--bulma-border);">
+                                <h3 class="title is-6 mb-4">Linguagens</h3>
+                                
+                                <div class="mb-4">
+                                    <div class="is-flex is-justify-content-space-between mb-1">
+                                        <span>HTML</span><span class="has-text-grey is-size-7">Intermediário</span>
+                                    </div>
+                                    <progress class="progress is-success is-small" value="65" max="100">65%</progress>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="is-flex is-justify-content-space-between mb-1">
+                                        <span>CSS</span><span class="has-text-grey is-size-7">Básico-Intermediário</span>
+                                    </div>
+                                    <progress class="progress is-success is-small" value="50" max="100">50%</progress>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="is-flex is-justify-content-space-between mb-1">
+                                        <span>Python</span><span class="has-text-grey is-size-7">Intermediário</span>
+                                    </div>
+                                    <progress class="progress is-success is-small" value="65" max="100">65%</progress>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="is-flex is-justify-content-space-between mb-1">
+                                        <span>CSS</span><span class="has-text-grey is-size-7">Básico-Intermediário</span>
+                                    </div>
+                                    <progress class="progress is-success is-small" value="55" max="100">55%</progress>
+                                </div>
+                                <div>
+                                    <div class="is-flex is-justify-content-space-between mb-1">
+                                        <span>JavaScript</span><span class="has-text-grey is-size-7">Avançado</span>
+                                    </div>
+                                    <progress class="progress is-success is-small" value="85" max="100">85%</progress>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projetos -->
+            <section id="projetos" class="section">
+                <div class="container">
+                    <div class="mb-5">
+                        <h2 class="title is-4 mb-2">Projetos</h2>
+                        <p class="subtitle is-6 has-text-grey">Alguns trabalhos já desenvolvidos.</p>
+                    </div>
+                    <div class="columns is-multiline">
+                        <!-- Projeto 1 -->
+                        <div class="column is-4">
+                            <div class="card is-shadowless h-100 is-flex is-flex-direction-column" style="border: 1px solid var(--bulma-border);">
+                                <div class="card-content is-flex-grow-1">
+                                    <div class="is-flex is-justify-content-space-between is-align-items-start mb-3">
+                                        <h3 class="title is-6 mb-0">aprovaia</h3>
+                                        <div class="tags mb-0">
+                                            <span class="tag is-light">HTML</span>
+                                            <span class="tag is-light">GROK AI</span>
+                                            <span class="tag is-light">JavaScript</span>
+                                        </div>
+                                    </div>
+                                    <p class="has-text-grey is-size-7 mb-4">
+                                        Site de estudos para ENEM.
+                                    </p>
+                                    <ul class="is-size-7 mb-5" style="list-style: disc; margin-left: 1.5rem;">
+                                        <li>Javascript</li>
+                                        <li>GROK AI</li>
+                                        <li>Componentes (cards, navbar)</li>
+                                    </ul>
+                                </div>
+                                <footer class="card-footer p-4 border-0">
+                                    <div class="buttons w-100">
+                                        <a class="button is-small is-dark is-outlined" href="https://github.com/otaviosbampato/aprovaia" target="_blank" rel="noreferrer">
+                                            <i class="fa-brands fa-github mr-1"></i>Repositório
+                                        </a>
+                                        <a class="button is-small is-success" href="#" target="_blank" rel="noreferrer">
+                                            <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>Demo
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <!-- Projeto 2 -->
+                        <div class="column is-4">
+                            <div class="card is-shadowless h-100 is-flex is-flex-direction-column" style="border: 1px solid var(--bulma-border);">
+                                <div class="card-content is-flex-grow-1">
+                                    <div class="is-flex is-justify-content-space-between is-align-items-start mb-3">
+                                        <h3 class="title is-6 mb-0">Short Quotes</h3>
+                                        <div class="tags mb-0">
+                                            <span class="tag is-light">HTML</span>
+                                            <span class="tag is-light">Bootstrap</span>
+                                            <span class="tag is-light">GROK</span>
+                                        </div>
+                                    </div>
+                                    <p class="has-text-grey is-size-7 mb-4">
+                                        Consumo de vídeos curtos
+                                    </p>
+                                    <ul class="is-size-7 mb-5" style="list-style: disc; margin-left: 1.5rem;">
+                                        <li>Classes do Bootstrap</li>
+                                        <li>Grid do Bootstrap</li>
+                                        <li>Componentes (cards, navbar)</li>
+                                    </ul>
+                                </div>
+                                <footer class="card-footer p-4 border-0">
+                                    <div class="buttons w-100">
+                                        <a class="button is-small is-dark is-outlined" href="https://github.com/FredMaia/shortQuotes" target="_blank" rel="noreferrer">
+                                            <i class="fa-brands fa-github mr-1"></i>Repositório
+                                        </a>
+                                        <a class="button is-small is-success" href="#" target="_blank" rel="noreferrer">
+                                            <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>Demo
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+
+                        <!-- Projeto 3 -->
+                        <div class="column is-4">
+                            <div class="card is-shadowless h-100 is-flex is-flex-direction-column" style="border: 1px solid var(--bulma-border);">
+                                <div class="card-content is-flex-grow-1">
+                                    <div class="is-flex is-justify-content-space-between is-align-items-start mb-3">
+                                        <h3 class="title is-6 mb-0">coffee-chain</h3>
+                                        <div class="tags mb-0">
+                                            <span class="tag is-light">Front-end</span>
+                                        </div>
+                                    </div>
+                                    <p class="has-text-grey is-size-7 mb-4">
+                                        Rastreabilidade em safras de café com blockchain.
+                                    </p>
+                                    <ul class="is-size-7 mb-5" style="list-style: disc; margin-left: 1.5rem;">
+                                        <li>HTML + CSS</li>
+                                        <li>Python e blockchain</li>
+                                        <li>Javascript e docker</li>
+                                    </ul>
+                                </div>
+                                <footer class="card-footer p-4 border-0">
+                                    <div class="buttons w-100">
+                                        <a class="button is-small is-dark is-outlined" href="https://github.com/isaccunha/coffee-chain" target="_blank" rel="noreferrer">
+                                            <i class="fa-brands fa-github mr-1"></i>Repositório
+                                        </a>
+                                        <a class="button is-small is-success" href="#" target="_blank" rel="noreferrer">
+                                            <i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>Demo
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interesses -->
+            <section id="interesses" class="section">
+                <div class="container">
+                    <div class="mb-5">
+                        <h2 class="title is-4 mb-2">Interesses</h2>
+                        <p class="subtitle is-6 has-text-grey">Áreas que eu gosto de estudar/pesquisar.</p>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-6">
+                            <div class="box is-shadowless h-100" style="border: 1px solid var(--bulma-border);">
+                                <ul style="list-style: square; margin-left: 1.5rem;">
+                                    <li class="mb-2">Desenvolvimento Web (Front-end e Back-end)</li>
+                                    <li class="mb-2">Banco de Dados e modelagem</li>
+                                    <li class="mb-2">Algoritmos e estruturas de dados profundas</li>
+                                    <li class="mb-2">Engenharia de Software</li>
+                                    <li>Data Science (Iniciante)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column is-6">
+                            <div class="box is-shadowless h-100" style="border: 1px solid var(--bulma-border);">
+                                <h3 class="title is-6 mb-3">Atividades</h3>
+                                <p class="has-text-grey mb-4">
+                                    Participo de projetos acadêmicos e gosto de aprender criando coisas práticas do mundo real.
+                                </p>
+                                <div class="tags">
+                                    <span class="tag is-light is-medium is-rounded border"><i class="fa-solid fa-book mr-2"></i>Estudos</span>
+                                    <span class="tag is-light is-medium is-rounded border"><i class="fa-solid fa-people-group mr-2"></i>Trabalho em equipe</span>
+                                    <span class="tag is-light is-medium is-rounded border"><i class="fa-solid fa-terminal mr-2"></i>Projetos práticos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contato -->
+            <section id="contato" class="section">
+                <div class="container">
+                    <div class="mb-5">
+                        <h2 class="title is-4 mb-2">Contato</h2>
+                        <p class="subtitle is-6 has-text-grey">Como falar comigo.</p>
+                    </div>
+                    <div class="columns">
+                        <div class="column is-6">
+                            <div class="box is-shadowless" style="border: 1px solid var(--bulma-border);">
+                                <ul>
+                                    <li class="is-flex is-align-items-center mb-3">
+                                        <i class="fa-solid fa-envelope has-text-success mr-3"></i>
+                                        <span>otavio.andrade4@estudante.ufla.br</span>
+                                    </li>
+                                    <li class="is-flex is-align-items-center mb-3">
+                                        <i class="fa-brands fa-github has-text-success mr-3"></i>
+                                        <a class="has-text-dark" href="https://github.com/otaviosbampato" target="_blank">
+                                            github.com/otaviosbampato
+                                        </a>
+                                    </li>
+                                    <li class="is-flex is-align-items-center">
+                                        <i class="fa-brands fa-linkedin has-text-success mr-3"></i>
+                                        <a class="has-text-dark" href="https://www.linkedin.com/in/otaviosbampato/" target="_blank">
+                                            linkedin.com/in/otavio-sbampato
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer class="footer is-paddingless py-5" style="border-top: 1px solid var(--bulma-border);">
+            <div class="container is-flex is-justify-content-space-between is-flex-direction-column-mobile has-text-centered-mobile">
+                <p class="has-text-grey is-size-7 mb-2-mobile">© <span id="year">2026</span> Página Pessoal — Otávio</p>
+                <p class="has-text-grey is-size-7">Desenvolvido com Bulma, HTML e um pouco de JavaScript.</p>
+            </div>
+        </footer>
+
+        <!-- Script extra para Bulma navbar burger (Mobile) -->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+                if ($navbarBurgers.length > 0) {
+                    $navbarBurgers.forEach( el => {
+                        el.addEventListener('click', () => {
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
+                            el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+                        });
+                    });
+                }
+            });
+        </script>
+
+        <!-- Script do projeto -->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
